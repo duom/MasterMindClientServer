@@ -14,7 +14,7 @@ public class MainClient {
         ip = scanner.nextLine();
 
         Client clientUDP = new Client(ip,5556);
-        clientUDP.setNom("Paco");
+        clientUDP.setNom("Albert");
         clientUDP.runClient();
 
 //

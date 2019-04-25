@@ -12,6 +12,8 @@ public static void main(String[] args) throws SocketException, IOException {
         } catch (IOException e) {
         e.printStackTrace();
         }
+
+
         System.out.println("Fi Servidor");
 
 

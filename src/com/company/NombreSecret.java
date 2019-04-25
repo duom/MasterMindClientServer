@@ -16,8 +16,9 @@ public class NombreSecret {
     }
 
     public void pensa(int max) {
+
         setNum((int) ((Math.random()*max)+1));
-        System.out.println("He pensat el " + getNum());
+        System.out.println("Combinación ganadora es " + getNum());
     }
 
     public int comprova(int n) {
